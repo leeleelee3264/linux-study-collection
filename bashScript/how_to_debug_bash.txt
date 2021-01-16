@@ -1,0 +1,21 @@
+
+1. give -x option when running the script
+
+bash -x bash_file_name 
+ex) bash -x ./lesson23_sed.sh
+
+
+2. append -x on the top of the bash file
+
+ex) #! /bin/bash -x 
+
+3. set debugging point in the file. 
+it start with 'set -x' and end with 'set +x'
+
+ex) 
+set -x 
+
+echo "Enter the file name" 
+read fileName
+
+set +x

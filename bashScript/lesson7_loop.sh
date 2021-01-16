@@ -1,5 +1,6 @@
-#! /bin/bash
+#! /bin/bash 
 
+set -x
 number=1
 
 # while loop 
@@ -9,6 +10,7 @@ do
 	number=$(( number + 1 )) 	
 done
 
+set +x
 
 # untill loop
 # untill loop keep looping before the condtion becomes true
